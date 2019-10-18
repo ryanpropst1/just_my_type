@@ -100,8 +100,13 @@ $(document).ready(function() {
         //select and display next desired character
       }
     }
-    if (charNumber == sentence.length) {
-      sentence.empty(); // local and empties once you're at the end
+    console.log("past nested loop");
+    console.log(charNumber);
+    console.log(sentence.length);
+
+    if (charNumber  == sentence.length -1 ) {
+      console.log("in 2nd major loop");
+      $("#sentence").empty(); // empties once you're at the end
       sentenceNumber++; // increment sentence index
       console.log("sentenceNumber = " + sentenceNumber);
       sentence = sentences[sentenceNumber];
