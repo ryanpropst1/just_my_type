@@ -111,7 +111,7 @@ $(document).ready(function() {
       console.log("sentenceNumber = " + sentenceNumber);
       sentence = sentences[sentenceNumber];
       console.log(sentence);
-      sentence.append(sentence); /// when at the end, changes the sentence
+      $("#sentence").append(sentence); /// when at the end, changes the sentence
       charNumber = 0; // reset the letter index
       if (sentenceNumber < sentences.length - 1) {
         letter = sentence.substring(charNumber, charNumber + 1);
