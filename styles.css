@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(images/EalpG4o.jpg);
+    /* background: cover; */
+    width: 100;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#prompt-container {
+    font-family: Courier New, Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+#yellow-block {
+    position: absolute;
+    margin-top: 12px;
+    width: 15px;
+    height: 25px;
+    background-color: rgb(204, 85, 0, 0.7);
+}
+
+.highlight {
+    background-color: #ffc600;
+}
+
+.keyboard-container {
+    margin-top: 200px;
+}
+
+#sentence {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.4);
+    text-align: center;
+    padding-top: 8px;
+}
+
+#target-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    /* text-align: center; */
+    height: 45px;
+    width: 50px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#key_id {
+    transition: all 1.07s ease;
+}
+
+.pressed {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.keys-row {
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+#feedback {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.glyphicon-ok {
+    color: #1DA237;
+}
+
+.glyphicon-remove {
+    color: #CD2626
+}
